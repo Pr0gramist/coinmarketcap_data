@@ -37,4 +37,4 @@ MAIN LOOP - KEEP MONITOR RUNNING
 '''
 while True:
 	print(crypto_id + ": $" + crypto_data.get_crypto_data(crypto_id, "price_usd"))
-	time.sleep(10)
+	time.sleep(300)
